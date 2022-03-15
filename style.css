@@ -1,0 +1,115 @@
+/* 03/14/2022
+Trting to get background colors to match correctly on container 2, 3, and 4. */
+
+/* Containers for All Content */
+div#grou {
+  display: flex;
+  padding: 10px;
+  height: 150px;
+}
+* {
+  background-color: #1f2937;
+}
+a,
+ol {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 200;
+  color: #f9faf8;
+}
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+button {
+  background-color: #3882f6;
+  margin: 0 0 50px 200px;
+  padding: 1%;
+}
+
+/* Header Style */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alignes the header evenly inlcuding the logo,
+  and links */
+  background-color: #1f2937;
+}
+.header-container {
+  /* Logo Container */
+  margin-left: 50px;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+ul.list {
+  display: inline-flex; /* places my links in order left to right,
+    instead of top to bottom */
+
+  margin-right: 300px;
+
+  /* border: 2px solid red; */
+}
+.imageHolder {
+  background-color: grey;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 100px 0 0 0;
+}
+.infoBox {
+  display: flex;
+  margin: 25px;
+}
+a.infoImage {
+  background-color: white;
+  padding: 25px;
+  border: #3882f6 2px solid;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+.imageText {
+  margin-top: 50px;
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: red 2px solid;
+  width: 100%;
+  align-content: center;
+}
+
+.link {
+  display: flex;
+  margin-left: 50px; /* spaces out the links */
+}
+.signUp {
+  background-color: #3882f6;
+  font-size: 15px;
+}
+
+/* Main Body */
+#group {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+#footer {
+  border: 2px solid red;
+  background-color: bisque;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+}
